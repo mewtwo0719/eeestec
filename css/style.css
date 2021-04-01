@@ -1,0 +1,112 @@
+/*.golden-sponsor{
+    border: 1px solid gold;
+}
+.eestec-red-bg{
+    background-color: #d65353!important;
+}
+.eestec-red-cl{
+    color: #d65353!important;
+}
+.eestec-red-bg-hover:hover{
+    background-color: #d65353!important;
+}
+.eestec-red-cl-hover:hover{
+    color: #d65353!important;
+}*/
+.eestec-red-bg{
+    background-color: #d65353;
+}
+.sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    padding: 1em;
+    margin: 2em 1em;
+}
+.sponsor-text{
+    min-height: 200px;
+}
+.general-sponsor{
+        box-shadow: 0 10px 25px -10px red;
+        animation-duration: 5s;
+        animation-name: general-animation;
+        animation-timing-function: ease-in-out;       
+        animation-iteration-count: infinite; 
+}
+
+@keyframes general-animation {
+    0% {
+        box-shadow: 0 10px 25px -10px red;
+    }
+    20% {
+        box-shadow: 0 15px 35px -8px purple;
+    }
+    40% {
+        box-shadow: 0 10px 25px -10px blue;
+    }
+    60% {
+        box-shadow: 0 15px 35px -8px green;
+    }
+    80% {
+        box-shadow: 0 10px 25px -10px yellow;
+    }
+    100% {
+        box-shadow: 0 10px 25px -10px red;
+    }
+  }
+
+
+.golden-sponsor{
+    box-shadow: 0 10px 25px -10px gold;
+    animation-duration: 2s;
+    animation-name: golden-animation;
+    animation-timing-function: ease-in-out;       
+    animation-iteration-count: infinite; 
+}
+
+@keyframes golden-animation {
+0% {
+    box-shadow: 0 10px 25px -10px gold;
+}
+50% {
+    box-shadow: 0 15px 35px -8px gold;
+}
+100% {
+    box-shadow: 0 10px 25px -10px gold;
+}
+
+}
+
+.silver-sponsor{
+    box-shadow: 0 10px 25px -10px silver;
+    animation-duration: 2s;
+    animation-name: silver-animation;
+    animation-timing-function: ease-in-out;       
+    animation-iteration-count: infinite; 
+}
+
+@keyframes silver-animation {
+0% {
+    box-shadow: 0 10px 25px -10px silver;
+}
+50% {
+    box-shadow: 0 15px 35px -8px silver;
+}
+100% {
+    box-shadow: 0 10px 25px -10px silver;
+}
+
+}
+
+.standart-sponsor{
+    box-shadow: 0 7px 25px -10px lightgray
+}
+.blog-image{
+    object-fit: cover;
+    width:306px;
+    height:230px;
+}
+.needs-alignment li{
+    width: 100%;
+}
