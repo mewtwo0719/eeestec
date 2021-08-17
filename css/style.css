@@ -24,8 +24,12 @@
     padding: 1em;
     margin: 2em 1em;
 }
+.fix-sponsor-logo{
+    max-width: 200px;
+}
 .sponsor-text{
     min-height: 200px;
+    
 }
 .general-sponsor{
         box-shadow: 0 10px 25px -10px red;
@@ -110,3 +114,47 @@
 .needs-alignment li{
     width: 100%;
 }
+
+@keyframes gold-bg-animation {
+    0% {
+        background-color:  rgba(255, 217, 0, 0);
+    }
+    50% {
+        background-color: rgba(255, 217, 0, 0.712);
+    }
+    100% {
+        background-color:  rgba(255, 217, 0, 0);
+    }
+    
+    }
+
+.modal-gold{
+    background-color: rgba(255, 217, 0, 0.479);
+    animation-duration: 2s;
+    animation-name: gold-bg-animation;
+    animation-timing-function: ease-in-out;       
+    animation-iteration-count: infinite; 
+}
+
+@keyframes silver-bg-animation {
+    0% {
+        background-color:  rgba(192, 192, 192, 0);
+    }
+    50% {
+        background-color: rgba(192, 192, 192, 0.726);
+    }
+    100% {
+        background-color:  rgba(192, 192, 192, 0);
+    }
+    
+    }
+
+.modal-silver{
+    background-color: rgb(192, 192, 192);
+    animation-duration: 2s;
+    animation-name: silver-bg-animation;
+    animation-timing-function: ease-in-out;       
+    animation-iteration-count: infinite; 
+}
+
+
